@@ -1,0 +1,31 @@
+# compiled output
+dist/
+
+# dependencies
+node_modules/
+
+# session file — contains your LeetCode auth cookies (lives outside the repo
+# at ~/.config/leetcode-mcp/session.json, but ignore if accidentally placed here)
+session.json
+
+# environment files
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build info
+*.tsbuildinfo
